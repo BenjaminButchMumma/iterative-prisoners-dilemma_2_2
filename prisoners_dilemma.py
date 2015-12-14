@@ -1,5 +1,5 @@
 from __future__ import print_function
-
+#####If the player colludeds then the player will get the sucker's payoff. This is the worst situation. If the player betrays, then their will be a low score, but better cooperation. Best option is to defect.
 ''' 
 PrisonerDilemma.py allows hard-coding different strategies
 for the Iterative Prisoners Dilemma, the canonical game of game-theory.
