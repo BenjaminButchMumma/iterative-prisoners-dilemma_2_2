@@ -1,5 +1,8 @@
 from __future__ import print_function
-
+### If I play collude - I will get the Sucker’s Payoff - Worst Situation
+### If I play betray  - Low score for mutual defection, but better than cooperation
+### If I play collude - Reward for mutual cooperation
+### If I play betray - Will get Temptation award - best scenario
 ''' 
 PrisonerDilemma.py allows hard-coding different strategies
 for the Iterative Prisoners Dilemma, the canonical game of game-theory.
