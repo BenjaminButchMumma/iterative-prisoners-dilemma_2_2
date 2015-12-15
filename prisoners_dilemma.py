@@ -15,8 +15,6 @@ Aggregated results are stored in tournament.txt
 
 Unpublished work (c)2013 Project Lead The Way
 CSE Project 1.3.5 Collaborating on a Project
-Draft, Do Not Distribute
-Version 8/23/2013 
 Version 12/14/2015
 '''
 
@@ -580,7 +578,15 @@ def get_action(player, history, opponent_history, score, opponent_score, getting
                 return 'b' # betray is they were severely punished last time
             else:
                 return 'c' #otherwise collude
-    
+                
+    elif player == 20:
+        if getting_team_name:
+            return 'legend player'
+        if len(opponent_history) < 2:
+            return "c"
+        if 'b' not in opponent_history:
+            return 'c'
+        
     
 
 
