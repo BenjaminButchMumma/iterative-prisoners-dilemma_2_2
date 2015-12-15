@@ -1,5 +1,13 @@
 from __future__ import print_function
+<<<<<<< HEAD
 #####If the player colludeds then the player will get the sucker's payoff. This is the worst situation. If the player betrays, then their will be a low score, but better cooperation. Best option is to defect.
+=======
+### If I play collude - I will get the Sucker’s Payoff - Worst Situation
+### If I play betray  - Low score for mutual defection, but better than cooperation
+### If I play collude - Reward for mutual cooperation
+### If I play betray - Will get Temptation award - best scenario
+### Need to make an algorithim that plays betray for both "players". Two players that Betray is the bet option.
+>>>>>>> origin/testingBM
 ''' 
 PrisonerDilemma.py allows hard-coding different strategies
 for the Iterative Prisoners Dilemma, the canonical game of game-theory.
